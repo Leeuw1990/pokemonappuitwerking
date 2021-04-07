@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
+
+body {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    background-color: #FFCC01;
+    display: flex;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+
+.PokemonEmblem {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 216px;
+    width: 384px;
+}
+
+.pokemonCard {
+    display: flex;
+    flex-wrap: wrap;
+    border-color: black;
+    justify-content: center;
+}
+
+.oneButton {
+    display: flex;
+    justify-content: center;
+}
+
+.pageButton {
+    height: 35px;
+    width:  70px;
+    background-color: #2C6CB4;
+    color: #FFCC01;
+    border-color: black;
+}
